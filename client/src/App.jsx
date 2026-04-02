@@ -9,7 +9,7 @@ import WebsiteEditor from './pages/Editor'
 import LiveSite from './pages/LiveSite'
 import Pricing from './pages/Pricing'
 
-export const serverUrl="https://github.com/22cs049AnujPatel/websiteBuilder"
+export const serverUrl="https://websitebuilder-h6rf.onrender.com"
 function App() {
   useGetCurrentUser()
   const {userData}=useSelector(state=>state.user)
